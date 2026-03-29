@@ -1,0 +1,402 @@
+[
+  {
+    "image": "image_0.png",
+    "question": "Name out the section that include the Fig. 2.",
+    "true_answer": "['Expression of Ascl1 and neuronal markers in the early neuronal populations in the brain was regulated by Notch signalling in mouse', 'Results']",
+    "generated_answer": "Putative positioning of RNF212 (Accession XM_012167676.2) against the sub-telomeric region of Oar_v1.1 chromosome 6.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response does not address the instruction to name the section that includes Fig. 2, instead providing unrelated content about gene positioning. It is completely incorrect and not factual based on the reference answer, which correctly identifies relevant sections."
+  },
+  {
+    "image": "image_1.png",
+    "question": "When you search for the description of Fig. 3, which sections do you need to check?",
+    "true_answer": "['Differential expression of proneural genes was highly conserved between the chick and mouse brains', 'Results', 'Complementary and restricted expression of proneural genes in the developing mouse brain', 'Expression of proneural genes overlapped with the expression of neuronal markers in the early neuronal populations of both the chick and mouse brains', 'Loss of Ascl1 led to discrete loss of Tagln3 and Chga expression in the developing mouse brain']",
+    "generated_answer": "Fig. 3, Echo-angiographic 2-chamber view showing noncon- trast-enhanced left ventricle with a ratio of noncompacted/compacted myocardium of 1.5:1 and a left ventricular end-diastolic diameter of 49 mm, left atrium, LV left ventricle, LVEDD 4.58 cm and 2.2-2.16 cm as measured.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides a detailed description of Fig. 3 but does not answer the instruction's question about which sections need to be checked. The reference answer lists specific section titles or content that should be referenced, but the response instead describes the figure's content without indicating any sections. This makes the response incorrect and not factual based on the task requirements."
+  },
+  {
+    "image": "image_2.png",
+    "question": "Which section does include the description of the Table 2?",
+    "true_answer": "['Discussion', 'Results', 'Expression of neuronal markers during early development of the mouse brain', 'Expression of specific neuronal markers reveals genes that potentially play an essential role in the differentiation and specification of the populations that give rise to the early axon scaffold', 'Complementary and restricted expression of proneural genes in the developing mouse brain']",
+    "generated_answer": "Methods",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Methods\" is not present in the reference answer, which lists valid section titles where Table 2 might be described. Since the reference answer does not include \"Methods\" as a correct option, the response is completely incorrect and not factual based on the provided reference."
+  },
+  {
+    "image": "image_3.png",
+    "question": "Where can you find the Table 3?",
+    "true_answer": "['Differential expression of proneural genes was highly conserved between the chick and mouse brains', 'Complementary and restricted expression of proneural genes in the developing mouse brain', 'Results']",
+    "generated_answer": "In the paper",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"In the paper\" is vague and lacks the specific details provided in the reference answer, which includes exact phrases and section names indicating where Table 3 can be found. It does not accurately or factually reflect the reference answer's precision."
+  },
+  {
+    "image": "image_4.png",
+    "question": "Where is the 'Oka C et al,1995' cited in the document?",
+    "true_answer": "['Expression of Ascl1 and neuronal markers in the early neuronal populations in the brain was regulated by Notch signalling in mouse', 'Results']",
+    "generated_answer": "Page 8",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Page 8\" is completely incorrect and not factual when compared to the reference answer, which specifies the citation location as both a paper title and a section heading. The response fails to provide any meaningful or accurate information about where the citation appears."
+  },
+  {
+    "image": "image_5.png",
+    "question": "When you check the Background, which subsections are included?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "(a) (b)",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"(a) (b)\" is completely incorrect and not factual, as the reference answer clearly states that there are no subsections."
+  },
+  {
+    "image": "image_6.png",
+    "question": "What is the 2. The Unrestricted Rise of Lung Cancer about?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "Tobacco smoke has been known to be harmful for health since the 17th century, but it was not until the 20th century that lung cancer became an extremely rare disease only 140 cases were registered in the world in 1900.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides historical information about tobacco smoke and lung cancer incidence, but it does not address the query about the content of \"2. The Unrestricted Rise of Lung Cancer.\" Since the reference answer indicates there is no such subsection, the correct response should acknowledge this absence. The given response is factually inaccurate in relation to the query's context and fails to align with the reference answer."
+  },
+  {
+    "image": "image_7.png",
+    "question": "Which section does describe the Table 1?",
+    "true_answer": "['Results']",
+    "generated_answer": "aggregate. The quality is collected using an 11 points Likert scale (from 0 to 10).",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides a detail about the content of Table 1 but does not correctly identify the section where Table 1 is described, which is the specific information requested. The reference answer indicates that Table 1 is described in the \"Results\" section, but the response incorrectly states \"aggregate\" and gives unrelated details about data collection. Therefore, the response is completely incorrect and inaccurate for the given task."
+  },
+  {
+    "image": "image_8.png",
+    "question": "When you search for the description of Table 2, which sections do you need to check?",
+    "true_answer": "['Results']",
+    "generated_answer": "Description, Test, Performance description, Explanation",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response lists \"Description, Test, Performance description, Explanation,\" which does not match the reference answer \"Results.\" The response is completely incorrect and not factual based on the reference."
+  },
+  {
+    "image": "image_9.png",
+    "question": "Where can 'Gervais KJ et al,2012' be found in the document?",
+    "true_answer": "['Background']",
+    "generated_answer": "Reference 17",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Reference 17\" is completely incorrect and inaccurate when compared to the reference answer \"['Background']\", which indicates the correct location in the document. The response does not align factually with the expected answer."
+  },
+  {
+    "image": "image_10.png",
+    "question": "What subsections are in the Background?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "1.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response is completely incorrect and inaccurate as it does not provide any meaningful answer to the question about subsections in the Background, whereas the reference answer clearly states there are no subsections."
+  },
+  {
+    "image": "image_11.png",
+    "question": "Which section does include the description of the Table 2.?",
+    "true_answer": "['Hydrogel-forming materials', 'Hydrogels: suitable micro-environments for BTE']",
+    "generated_answer": "Methods",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Methods\" is completely incorrect and not factual based on the reference answer, which specifies that Table 2 is described in the sections \"Hydrogel-forming materials\" and \"Hydrogels: suitable micro-environments for BTE\". The response does not match any part of the correct answer."
+  },
+  {
+    "image": "image_12.png",
+    "question": "Name out the section that include the Table 1..",
+    "true_answer": "['Hydrogels: suitable micro-environments for BTE', 'Methods of preparation of hydrogels']",
+    "generated_answer": "Patient clinical information.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Patient clinical information\" is completely incorrect and not factual based on the reference answer, which specifies the correct sections as \"Hydrogels: suitable micro-environments for BTE\" and \"Methods of preparation of hydrogels\". The response does not match any part of the reference answer."
+  },
+  {
+    "image": "image_13.png",
+    "question": "What subsections can be found in the Choosing and preparing cells for BTE?",
+    "true_answer": "['The different cell types used for BTE', 'Creating an environment to favor angiogenesis', 'Pre-conditioning cells before engraftment', 'Contribution of exogenous versus host cells in tissue regeneration']",
+    "generated_answer": "The different cell types used for BTE, Regenerating bone defects in areas where suitable progenitor cells are available to differentiate and synthesize and deposit new bone tissue",
+    "eval_score_deepseek-chat": 3,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides only one of the four key subsections listed in the reference answer (\"The different cell types used for BTE\") and includes additional unrelated information about bone regeneration that is not part of the reference answer. While the one included subsection is accurate, the omission of the other three critical subsections and the inclusion of extraneous details make the response only partially correct and factual relative to the reference."
+  },
+  {
+    "image": "image_14.png",
+    "question": "Name out the section that include the Figure 1.",
+    "true_answer": "['A Proposal for a System of Evaluation and Approval of Behavioural Prevention Interventions']",
+    "generated_answer": "Supine bridge",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Supine bridge\" is completely incorrect and not factual when compared to the reference answer, which specifies the correct section title. It shows no accuracy or alignment with the expected information."
+  },
+  {
+    "image": "image_15.png",
+    "question": "When you search for the description of Figure 1, which sections do you need to check?",
+    "true_answer": "['A Proposal for a System of Evaluation and Approval of Behavioural Prevention Interventions']",
+    "generated_answer": "Initial Problem Formulation and Initial Problem Formulation",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response lists \"Initial Problem Formulation and Initial Problem Formulation,\" which is incorrect and does not match the reference answer at all. The reference answer specifies a particular section title, and the response fails to provide any accurate or factual information related to it."
+  },
+  {
+    "image": "image_16.png",
+    "question": "When you search for the description of Table 1, which sections do you need to check?",
+    "true_answer": "['Identifying and Selecting Evidence-Based Behavioural Prevention Interventions: Current Situation']",
+    "generated_answer": "Service quality criteria and Analyzed questions",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides two section names that do not match the reference answer, which specifies a single, different section title. This indicates the response is incorrect and not factual based on the given reference."
+  },
+  {
+    "image": "image_17.png",
+    "question": "Name out the section that include the Table 1.",
+    "true_answer": "['Identifying and Selecting Evidence-Based Behavioural Prevention Interventions: Current Situation']",
+    "generated_answer": "Experimental Section",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Experimental Section\" is completely incorrect and not factual when compared to the reference answer, which specifies the correct section name."
+  },
+  {
+    "image": "image_18.png",
+    "question": "Where is the pmed.1001740-Pharmaceutical1 cited in the document?",
+    "true_answer": "['Existing Frameworks for the Regulation of Interventions']",
+    "generated_answer": "Category 2, Abstract 460",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides a specific location (\"Category 2, Abstract 460\") but does not match the reference answer, which indicates the citation is found under the heading \"Existing Frameworks for the Regulation of Interventions.\" The response is therefore incorrect and not factual based on the reference."
+  },
+  {
+    "image": "image_19.png",
+    "question": "What subsections are in the A Proposal for a System of Evaluation and Approval of Behavioural Prevention Interventions?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "Phase 1, Phase 2, Phase 3, Phase 4",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response lists \"Phase 1, Phase 2, Phase 3, Phase 4\" as subsections, but the reference answer explicitly states there are no subsections. This is completely incorrect and not factual based on the provided reference."
+  },
+  {
+    "image": "image_20.png",
+    "question": "Which section does describe the Figure 2.?",
+    "true_answer": "['Combining internal variability and forced responses', 'Observations']",
+    "generated_answer": "The 26 Countries in Africa where Mass Treatment with Mectizan was Indicated or Ongoing for Onchocerciasis, as of the end of 2005.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response does not match the reference answer at all, as it provides a title related to onchocerciasis treatment in Africa instead of the correct sections \"Combining internal variability and forced responses\" and \"Observations.\" It is completely incorrect and inaccurate based on the reference."
+  },
+  {
+    "image": "image_21.png",
+    "question": "Which section does include the description of the Figure 5.?",
+    "true_answer": "['Combining internal variability and forced responses', 'Forced responses']",
+    "generated_answer": "User interface",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"User interface\" is completely incorrect and not factual based on the reference answer, which specifies that the correct sections are \"Combining internal variability and forced responses\" and \"Forced responses.\" The response does not match any part of the reference answer."
+  },
+  {
+    "image": "image_22.png",
+    "question": "Where is the 'BrownPT et al,2015' cited in the document?",
+    "true_answer": "['Internal variability']",
+    "generated_answer": "13",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"13\" is completely incorrect and not factual based on the reference answer, which specifies that the citation is located in the section titled \"Internal variability.\" The response provides a numerical value that does not correspond to the correct answer."
+  },
+  {
+    "image": "image_23.png",
+    "question": "What does the Internal variability include?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "E.g. intraseasonal variability associated with the Madden Julian Oscillation and interannual variability associated with the El Niño Southern Oscillation, ENSO).",
+    "eval_score_deepseek-chat": 3,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides specific examples of internal variability, which are accurate and factual. However, the reference answer explicitly states \"No subsection!\" as the correct response, indicating that the question should not be answered with examples or subsections. Since the response includes examples instead of adhering to the reference answer's directive, it is not completely correct based on the given reference."
+  },
+  {
+    "image": "image_24.png",
+    "question": "When you search for the description of Figure 1, which sections do you need to check?",
+    "true_answer": "['Conclusions and perspective']",
+    "generated_answer": "Initial Problem Formulation and Initial Problem Formulation",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides two section names, \"Initial Problem Formulation\" and \"Initial Problem Formulation\" (which is a duplicate), that do not match the correct reference answer \"Conclusions and perspective.\" The answer is entirely incorrect and not factual based on the reference."
+  },
+  {
+    "image": "image_25.png",
+    "question": "When you search for the description of Figure 1, which sections do you need to check?",
+    "true_answer": "['Conclusions and perspective']",
+    "generated_answer": "Initial Problem Formulation and Initial Problem Formulation",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides two section names, \"Initial Problem Formulation\" and \"Initial Problem Formulation\" (which is a duplicate), but these do not match the correct, factual reference answer of \"Conclusions and perspective.\" The response is therefore completely incorrect and inaccurate for the given task."
+  },
+  {
+    "image": "image_26.png",
+    "question": "What subsections can be found in the Macrophage-derived Wnts regulate angiogenesis?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "A, B, C",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"A, B, C\" is completely incorrect and not factual, as it does not match the reference answer which states there are no subsections. The response provides arbitrary labels instead of the accurate information."
+  },
+  {
+    "image": "image_27.png",
+    "question": "When you search for the description of Table 1, which sections do you need to check?",
+    "true_answer": "['Results']",
+    "generated_answer": "Service quality criteria and Analyzed questions",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides two sections, \"Service quality criteria\" and \"Analyzed questions,\" which do not match the reference answer of \"Results.\" Since the reference answer is the only correct and factual response, the given answer is completely incorrect."
+  },
+  {
+    "image": "image_28.png",
+    "question": "Where can you find the Table 2?",
+    "true_answer": "['Results']",
+    "generated_answer": "Page 5 of 9",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Page 5 of 9\" is completely incorrect and not factual when compared to the reference answer \"['Results']\", which indicates that Table 2 is located in the Results section rather than on a specific page number."
+  },
+  {
+    "image": "image_29.png",
+    "question": "When you search for the citation of 'Jakobsson U et al,2005', which sections can you find it?",
+    "true_answer": "['Analysis', 'Methods']",
+    "generated_answer": "References",
+    "eval_score_deepseek-chat": 3,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"References\" is partially correct since citations are typically found in a References section, but it does not match the specific sections provided in the reference answer, which are 'Analysis' and 'Methods'. The response is therefore somewhat accurate but incomplete and not fully aligned with the expected factual answer."
+  },
+  {
+    "image": "image_30.png",
+    "question": "When you check the Supplementary Material, which subsections are included?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "9.10 Supplemental",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"9.10 Supplemental\" is completely incorrect and not factual, as the reference answer explicitly states that there are no subsections. The response incorrectly identifies a specific subsection that does not exist according to the reference."
+  },
+  {
+    "image": "image_31.png",
+    "question": "Which section does describe the Figure 1?",
+    "true_answer": "['Background', 'Methods', 'Data analysis']",
+    "generated_answer": "Main text",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Main text\" is completely incorrect and not factual based on the reference answer, which specifies that the correct sections are 'Background', 'Methods', and 'Data analysis'. The response does not match any part of the reference answer."
+  },
+  {
+    "image": "image_32.png",
+    "question": "Which section does describe the Figure 1?",
+    "true_answer": "['Background', 'Methods', 'Data analysis']",
+    "generated_answer": "Main text",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Main text\" is completely incorrect and not factual based on the reference answer, which lists specific sections ('Background', 'Methods', 'Data analysis') that describe Figure 1. The response does not match any part of the reference answer."
+  },
+  {
+    "image": "image_33.png",
+    "question": "Name out the section that include the Table 4.",
+    "true_answer": "['Discussion', 'Results']",
+    "generated_answer": "antifungal activity of bacterial crude extracts against pathogenic fungi and their zone of inhibition including the diameter of disc (3 mm), the negative control was 25 μg/disc, and 50 μg/ml in disc diffusion assay",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response does not name any section titles such as \"Discussion\" or \"Results\" as required by the instruction and reference answer. Instead, it provides a descriptive summary of content that might be found in a table, which is incorrect and not factual based on the reference."
+  },
+  {
+    "image": "image_34.png",
+    "question": "When you search for the description of Table 3, which sections do you need to check?",
+    "true_answer": "['Discussion', 'Results']",
+    "generated_answer": "Parameters to customize pathway appearance.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Parameters to customize pathway appearance\" is not correct, accurate, or factual based on the reference answer, which specifies the sections 'Discussion' and 'Results'. The response does not mention any sections at all and instead provides an unrelated phrase, making it completely incorrect."
+  },
+  {
+    "image": "image_35.png",
+    "question": "What subsections are in the Background?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "1.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response is incomplete and does not provide any meaningful answer to the question. It fails to match the reference answer, which clearly states that there are no subsections. The response lacks accuracy and factual correctness as it does not address the query appropriately."
+  },
+  {
+    "image": "image_36.png",
+    "question": "Which section does include the description of the Figure 1?",
+    "true_answer": "['Chloroplast RNA Processing and Stability', 'Concluding Remarks', 'Introduction', 'RNA Editing']",
+    "generated_answer": "Main text",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Main text\" is not among the correct options provided in the reference answer, which lists specific section titles. It is vague and does not match any of the accurate, factual answers. Therefore, it is completely incorrect based on the reference."
+  },
+  {
+    "image": "image_37.png",
+    "question": "Where can you find the Figure 1?",
+    "true_answer": "['Chloroplast RNA Processing and Stability', 'Concluding Remarks', 'Introduction', 'RNA Editing']",
+    "generated_answer": "Page 3 of 8",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Page 3 of 8\" is completely incorrect and inaccurate when compared to the reference answer, which lists section titles rather than a page number. The reference answer does not mention any page number, and the response provides a specific page location that is unsupported by the given reference. Therefore, it fails to be factual based on the reference."
+  },
+  {
+    "image": "image_38.png",
+    "question": "Name out the section that include the Table 1.",
+    "true_answer": "['Concluding Remarks', 'The Role of PPR Protein in the Control of Chloroplast Gene Expression', 'RNA Editing', 'Chloroplast RNA Processing and Stability', 'Intron Splicing']",
+    "generated_answer": "Experimental Section",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Experimental Section\" is not present in the reference answer, which lists the correct sections. Therefore, it is completely incorrect and not factual based on the provided reference."
+  },
+  {
+    "image": "image_39.png",
+    "question": "Name out the section that include the Table 1.",
+    "true_answer": "['Concluding Remarks', 'The Role of PPR Protein in the Control of Chloroplast Gene Expression', 'RNA Editing', 'Chloroplast RNA Processing and Stability', 'Intron Splicing']",
+    "generated_answer": "Experimental Section",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Experimental Section\" is not present in the reference answer, which lists the correct sections. Therefore, it is completely incorrect and not factual based on the provided reference."
+  },
+  {
+    "image": "image_40.png",
+    "question": "Which section does include the 'Stern DB et al,2004'?",
+    "true_answer": "['The Role of PPR Protein in the Control of Chloroplast Gene Expression']",
+    "generated_answer": "60",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"60\" is completely incorrect and not factual based on the reference answer, which specifies a section title rather than a number. There is no accuracy or factual alignment with the expected answer."
+  },
+  {
+    "image": "image_41.png",
+    "question": "When you check the Intron Splicing, which subsections are included?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "Several chloroplast genes, including both RNAs and proteins, are spliced introns.",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response is completely incorrect and not factual, as it does not answer the question about subsections in intron splicing and instead provides irrelevant information about chloroplast genes. The reference answer clearly indicates that there are no subsections, which the response fails to address."
+  },
+  {
+    "image": "image_42.png",
+    "question": "Which section does describe the Table 3?",
+    "true_answer": "['3. Results']",
+    "generated_answer": "Variations in clinical chemistry analysis values after water intake",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Variations in clinical chemistry analysis values after water intake\" is a descriptive phrase that may relate to the content of Table 3, but it does not match the reference answer \"3. Results,\" which is the specific section name where Table 3 is described. The response is therefore incorrect and not factual based on the reference."
+  },
+  {
+    "image": "image_43.png",
+    "question": "Which section does include the description of the Table 4?",
+    "true_answer": "['3. Results']",
+    "generated_answer": "Discussion",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Discussion\" is completely incorrect and not factual based on the reference answer, which specifies that Table 4 is described in the \"3. Results\" section."
+  },
+  {
+    "image": "image_44.png",
+    "question": "When you search for the description of Figure 1, which sections do you need to check?",
+    "true_answer": "['3. Results']",
+    "generated_answer": "Initial Problem Formulation and Initial Problem Formulation",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Initial Problem Formulation and Initial Problem Formulation\" is completely incorrect and not factual, as it does not match the reference answer \"3. Results\" and provides an inaccurate, repeated section name that is irrelevant to the query about locating a figure description."
+  },
+  {
+    "image": "image_45.png",
+    "question": "When you search for the description of Figure 1, which sections do you need to check?",
+    "true_answer": "['3. Results']",
+    "generated_answer": "Initial Problem Formulation and Initial Problem Formulation",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response lists \"Initial Problem Formulation\" twice, which does not match the reference answer of \"3. Results.\" It is completely incorrect and not factual based on the provided reference."
+  },
+  {
+    "image": "image_46.png",
+    "question": "Which section does include the 'Mewar D et al,2006'?",
+    "true_answer": "['1. Introduction', '4. Discussion']",
+    "generated_answer": "References",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"References\" is completely incorrect and not factual based on the reference answer, which specifies that the correct sections are \"1. Introduction\" and \"4. Discussion.\" The response does not match any part of the reference answer and fails to provide accurate information."
+  },
+  {
+    "image": "image_47.png",
+    "question": "What subsections are in the 2. Materials and Methods?",
+    "true_answer": "['No subsection!']",
+    "generated_answer": "2.1. Test Organisms, 2.2. Inoculants, 2.3. Initial Preparation of Root Canals, 2.4. Grouping of the Specimens, 2.5. Placement of Biofilms",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response lists specific subsections that are not present in the reference answer, which states there are no subsections. Therefore, the response is completely incorrect and not factual based on the reference."
+  },
+  {
+    "image": "image_48.png",
+    "question": "Name out the section that include the Figure 3.",
+    "true_answer": "['Results']",
+    "generated_answer": "Prone Bridge",
+    "eval_score_deepseek-chat": 1,
+    "eval_feedback_deepseek-chat": "Feedback: The response \"Prone Bridge\" is completely incorrect and not factual based on the reference answer, which specifies that the correct section is \"Results\". There is no alignment with the expected answer."
+  },
+  {
+    "image": "image_49.png",
+    "question": "Where can you find the Figure 1?",
+    "true_answer": "['Results']",
+    "generated_answer": "Page 3 of 8",
+    "eval_score_deepseek-chat": 3,
+    "eval_feedback_deepseek-chat": "Feedback: The response provides a specific page number, \"Page 3 of 8,\" which is a factual and accurate location for a figure in a document. However, the reference answer indicates that Figure 1 is found in the \"Results\" section, which is a broader categorical location rather than a specific page number. While the response may be correct in a specific context, it does not align with the reference answer's categorical accuracy. Therefore, it is not completely correct based on the given reference."
+  }
+]

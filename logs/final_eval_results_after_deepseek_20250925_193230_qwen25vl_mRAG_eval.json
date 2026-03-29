@@ -1,0 +1,408 @@
+{
+  "timestamp": "2025-09-25T19:32:30.626405",
+  "source_file": "qwen25vl_mRAG_eval.py",
+  "content_type": "final_eval_results_after_deepseek",
+  "total_questions": 50,
+  "results": [
+    {
+      "image": "image_0.png",
+      "question": "Name out the section that include the Fig. 2.",
+      "true_answer": "['Expression of Ascl1 and neuronal markers in the early neuronal populations in the brain was regulated by Notch signalling in mouse', 'Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not name any section containing Fig. 2 and instead returns a technical error message unrelated to the query. This fails to address the instruction at all and provides no factual information about the document sections."
+    },
+    {
+      "image": "image_1.png",
+      "question": "When you search for the description of Fig. 3, which sections do you need to check?",
+      "true_answer": "['Differential expression of proneural genes was highly conserved between the chick and mouse brains', 'Results', 'Complementary and restricted expression of proneural genes in the developing mouse brain', 'Expression of proneural genes overlapped with the expression of neuronal markers in the early neuronal populations of both the chick and mouse brains', 'Loss of Ascl1 led to discrete loss of Tagln3 and Chga expression in the developing mouse brain']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It appears to be a technical error message rather than an answer to the question about which sections to check for Fig. 3's description. This response contains no factual information relevant to the query and fails to address the instruction in any meaningful way."
+    },
+    {
+      "image": "image_2.png",
+      "question": "Which section does include the description of the Table 2?",
+      "true_answer": "['Discussion', 'Results', 'Expression of neuronal markers during early development of the mouse brain', 'Expression of specific neuronal markers reveals genes that potentially play an essential role in the differentiation and specification of the populations that give rise to the early axon scaffold', 'Complementary and restricted expression of proneural genes in the developing mouse brain']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query about which section includes the description of Table 2. It does not provide any answer to the question and is completely incorrect and non-factual based on the reference answer, which lists specific section titles."
+    },
+    {
+      "image": "image_3.png",
+      "question": "Where can you find the Table 3?",
+      "true_answer": "['Differential expression of proneural genes was highly conserved between the chick and mouse brains', 'Complementary and restricted expression of proneural genes in the developing mouse brain', 'Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not provide any factual information about the location of Table 3, instead returning a technical error message unrelated to the query. The reference answer shows what a correct response should contain - specific, factual details about Table 3's content and location. The response fails to address the query in any meaningful way and contains no accurate information."
+    },
+    {
+      "image": "image_4.png",
+      "question": "Where is the 'Oka C et al,1995' cited in the document?",
+      "true_answer": "['Expression of Ascl1 and neuronal markers in the early neuronal populations in the brain was regulated by Notch signalling in mouse', 'Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It fails to provide any information about where 'Oka C et al,1995' is cited in the document, instead returning a technical error message unrelated to the query. This does not address the question at all and contains no factual information about the citation location."
+    },
+    {
+      "image": "image_5.png",
+      "question": "When you check the Background, which subsections are included?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is completely unrelated to the instruction and provides no meaningful answer to the question asked. It fails to address the query about subsections in the Background and does not align with the reference answer in any way. Therefore, it is entirely incorrect and not factual based on the evaluation criteria."
+    },
+    {
+      "image": "image_6.png",
+      "question": "What is the 2. The Unrestricted Rise of Lung Cancer about?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains a system error message that is completely unrelated to the query about the content of \"2. The Unrestricted Rise of Lung Cancer.\" It provides no information about the requested topic and fails to address the instruction in any meaningful way. Compared to the reference answer, which correctly indicates there is no such subsection, this response is entirely incorrect and non-factual."
+    },
+    {
+      "image": "image_7.png",
+      "question": "Which section does describe the Table 1?",
+      "true_answer": "['Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and unrelated to the question about which section describes Table 1. It does not provide any factual information or attempt to answer the query, instead showing a technical error message. This fails to meet any level of accuracy or correctness required by the rubric."
+    },
+    {
+      "image": "image_8.png",
+      "question": "When you search for the description of Table 2, which sections do you need to check?",
+      "true_answer": "['Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and unrelated to the query about which sections to check for Table 2's description. It appears to be a technical error message rather than an attempt to answer the question. This does not provide any factual information and fails to address the instruction."
+    },
+    {
+      "image": "image_9.png",
+      "question": "Where can 'Gervais KJ et al,2012' be found in the document?",
+      "true_answer": "['Background']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not provide any factual information about where the reference 'Gervais KJ et al,2012' can be found in the document, instead returning a system error message unrelated to the query. This fails to address the question at all."
+    },
+    {
+      "image": "image_10.png",
+      "question": "What subsections are in the Background?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not address the question about subsections in the Background at all, instead returning a technical error message unrelated to the query. This fails to provide any factual information and is entirely unhelpful for the user's request."
+    },
+    {
+      "image": "image_11.png",
+      "question": "Which section does include the description of the Table 2.?",
+      "true_answer": "['Hydrogel-forming materials', 'Hydrogels: suitable micro-environments for BTE']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, as it fails to provide any meaningful answer to the question about which section includes the description of Table 2. It instead returns a technical error message unrelated to the query. This does not align with the reference answer, which correctly identifies the relevant sections."
+    },
+    {
+      "image": "image_12.png",
+      "question": "Name out the section that include the Table 1..",
+      "true_answer": "['Hydrogels: suitable micro-environments for BTE', 'Methods of preparation of hydrogels']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not name any sections containing Table 1, fails to address the query, and appears to be a system error message rather than a factual answer. This bears no relation to the reference answer, which correctly identifies specific section names."
+    },
+    {
+      "image": "image_13.png",
+      "question": "What subsections can be found in the Choosing and preparing cells for BTE?",
+      "true_answer": "['The different cell types used for BTE', 'Creating an environment to favor angiogenesis', 'Pre-conditioning cells before engraftment', 'Contribution of exogenous versus host cells in tissue regeneration']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the question about subsections in Choosing and preparing cells for BTE. It provides no relevant information and fails to address the query at all. Compared to the reference answer, which lists four accurate subsections, this response is completely incorrect and non-factual."
+    },
+    {
+      "image": "image_14.png",
+      "question": "Name out the section that include the Figure 1.",
+      "true_answer": "['A Proposal for a System of Evaluation and Approval of Behavioural Prevention Interventions']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not provide any section name containing Figure 1, instead returning an error message unrelated to the query. This fails to address the instruction at all and contains no factual information relevant to the task."
+    },
+    {
+      "image": "image_15.png",
+      "question": "When you search for the description of Figure 1, which sections do you need to check?",
+      "true_answer": "['A Proposal for a System of Evaluation and Approval of Behavioural Prevention Interventions']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not address the question about which sections to check for Figure 1's description and instead returns a technical error message unrelated to the query. This fails to provide any factual information relevant to the task."
+    },
+    {
+      "image": "image_16.png",
+      "question": "When you search for the description of Table 1, which sections do you need to check?",
+      "true_answer": "['Identifying and Selecting Evidence-Based Behavioural Prevention Interventions: Current Situation']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not answer the question about which sections to check for Table 1's description and instead appears to be a system error message unrelated to the query. This fails to provide any factual information relevant to the task."
+    },
+    {
+      "image": "image_17.png",
+      "question": "Name out the section that include the Table 1.",
+      "true_answer": "['Identifying and Selecting Evidence-Based Behavioural Prevention Interventions: Current Situation']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, as it fails to name the section containing Table 1 and instead returns an error message unrelated to the query. It contains no factual information relevant to the task."
+    },
+    {
+      "image": "image_18.png",
+      "question": "Where is the pmed.1001740-Pharmaceutical1 cited in the document?",
+      "true_answer": "['Existing Frameworks for the Regulation of Interventions']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, as it fails to provide any factual information about where \"pmed.1001740-Pharmaceutical1\" is cited in the document. Instead, it returns a system error unrelated to the query's content. This does not address the question at all and is not based on the reference answer, which correctly identifies the citation location."
+    },
+    {
+      "image": "image_19.png",
+      "question": "What subsections are in the A Proposal for a System of Evaluation and Approval of Behavioural Prevention Interventions?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no meaningful information about the document's subsections. It fails to address the question at all and is completely incorrect and non-factual when compared to the reference answer, which clearly states there are no subsections."
+    },
+    {
+      "image": "image_20.png",
+      "question": "Which section does describe the Figure 2.?",
+      "true_answer": "['Combining internal variability and forced responses', 'Observations']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, as it fails to address the question about which section describes Figure 2 and instead returns a technical error message unrelated to the query. It contains no factual information related to the reference answer."
+    },
+    {
+      "image": "image_21.png",
+      "question": "Which section does include the description of the Figure 5.?",
+      "true_answer": "['Combining internal variability and forced responses', 'Forced responses']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and not factual, as it fails to answer the question about which section includes the description of Figure 5 and instead returns an unrelated error message. It provides no accurate information compared to the reference answer."
+    },
+    {
+      "image": "image_22.png",
+      "question": "Where is the 'BrownPT et al,2015' cited in the document?",
+      "true_answer": "['Internal variability']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, which asks for the location where 'BrownPT et al,2015' is cited in the document. The response does not provide any factual information related to the query and instead returns a system error message, failing to address the question at all. It bears no resemblance to the reference answer, which correctly identifies the citation location."
+    },
+    {
+      "image": "image_23.png",
+      "question": "What does the Internal variability include?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is completely unrelated to the question asked, providing no meaningful or factual information about internal variability. It fails to address the query in any way and is entirely incorrect based on the reference answer."
+    },
+    {
+      "image": "image_24.png",
+      "question": "When you search for the description of Figure 1, which sections do you need to check?",
+      "true_answer": "['Conclusions and perspective']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, as it does not provide any relevant information about which sections to check for Figure 1's description. It appears to be a system error message rather than a factual answer to the query. The reference answer specifies the correct sections, making this response entirely non-factual."
+    },
+    {
+      "image": "image_25.png",
+      "question": "When you search for the description of Figure 1, which sections do you need to check?",
+      "true_answer": "['Conclusions and perspective']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and unrelated to the query about which sections to check for Figure 1's description. It contains no factual information and appears to be a system error message rather than an answer. This fails to address the instruction in any meaningful way and has no accuracy regarding the expected content."
+    },
+    {
+      "image": "image_26.png",
+      "question": "What subsections can be found in the Macrophage-derived Wnts regulate angiogenesis?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no meaningful information about the subsections in \"Macrophage-derived Wnts regulate angiogenesis.\" It fails to address the question at all and is completely incorrect and non-factual based on the reference answer, which clearly states there are no subsections."
+    },
+    {
+      "image": "image_27.png",
+      "question": "When you search for the description of Table 1, which sections do you need to check?",
+      "true_answer": "['Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no meaningful answer to the question about which sections to check for Table 1's description. It fails to address the instruction at all and is completely incorrect and inaccurate based on the reference answer, which correctly identifies \"Results\" as the appropriate section."
+    },
+    {
+      "image": "image_28.png",
+      "question": "Where can you find the Table 2?",
+      "true_answer": "['Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction \"Where can you find the Table 2?\". It does not provide any factual information about the location of Table 2 and instead returns a system error message unrelated to the query. The reference answer shows that a correct response should indicate a specific location (e.g., \"Results\"), which this response fails to do entirely."
+    },
+    {
+      "image": "image_29.png",
+      "question": "When you search for the citation of 'Jakobsson U et al,2005', which sections can you find it?",
+      "true_answer": "['Analysis', 'Methods']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no information about citation sections. It fails to address the question at all and is completely incorrect and inaccurate when compared to the reference answer."
+    },
+    {
+      "image": "image_30.png",
+      "question": "When you check the Supplementary Material, which subsections are included?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not answer the question about subsections in the Supplementary Material and instead returns a technical error message unrelated to the query. The reference answer shows the correct response should be a factual statement about the subsections (specifically indicating no subsections exist). This response fails to provide any meaningful or factual information related to the instruction."
+    },
+    {
+      "image": "image_31.png",
+      "question": "Which section does describe the Figure 1?",
+      "true_answer": "['Background', 'Methods', 'Data analysis']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, as it does not provide any meaningful answer to the question about which section describes Figure 1. Instead, it appears to be a system error message unrelated to the query. Compared to the reference answer, which correctly lists relevant sections, this response fails to address the question at all and contains no factual information related to the task."
+    },
+    {
+      "image": "image_32.png",
+      "question": "Which section does describe the Figure 1?",
+      "true_answer": "['Background', 'Methods', 'Data analysis']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message rather than an answer to the question, making it completely incorrect and not factual based on the reference answer. It fails to identify any sections that describe Figure 1."
+    },
+    {
+      "image": "image_33.png",
+      "question": "Name out the section that include the Table 4.",
+      "true_answer": "['Discussion', 'Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and unrelated to the instruction asking to name the section containing Table 4. It contains no factual information about document sections and instead presents a technical error message that does not address the query. This fails to meet any aspect of the accuracy requirement compared to the reference answer."
+    },
+    {
+      "image": "image_34.png",
+      "question": "When you search for the description of Table 3, which sections do you need to check?",
+      "true_answer": "['Discussion', 'Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no meaningful answer to the question about which sections to check for Table 3's description. It fails to address the instruction at all and is completely incorrect and inaccurate based on the reference answer."
+    },
+    {
+      "image": "image_35.png",
+      "question": "What subsections are in the Background?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not address the question about subsections in the Background at all, instead returning a technical error message unrelated to the query. This fails to provide any factual information and is entirely unhelpful for the user's request."
+    },
+    {
+      "image": "image_36.png",
+      "question": "Which section does include the description of the Figure 1?",
+      "true_answer": "['Chloroplast RNA Processing and Stability', 'Concluding Remarks', 'Introduction', 'RNA Editing']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not provide any factual information about which section includes the description of Figure 1, and instead returns an error message unrelated to the query. This fails to address the question at all and contains no correct information based on the reference answer."
+    },
+    {
+      "image": "image_37.png",
+      "question": "Where can you find the Figure 1?",
+      "true_answer": "['Chloroplast RNA Processing and Stability', 'Concluding Remarks', 'Introduction', 'RNA Editing']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction \"Where can you find the Figure 1?\" as it does not provide any factual information about the figure's location and instead returns a system error unrelated to the query. The reference answer shows that a correct response should list relevant section titles where Figure 1 might be found."
+    },
+    {
+      "image": "image_38.png",
+      "question": "Name out the section that include the Table 1.",
+      "true_answer": "['Concluding Remarks', 'The Role of PPR Protein in the Control of Chloroplast Gene Expression', 'RNA Editing', 'Chloroplast RNA Processing and Stability', 'Intron Splicing']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not provide any section names containing Table 1 as requested, and instead returns a technical error message unrelated to the query. This fails to address the task requirements entirely and contains no factual information relevant to the reference answer."
+    },
+    {
+      "image": "image_39.png",
+      "question": "Name out the section that include the Table 1.",
+      "true_answer": "['Concluding Remarks', 'The Role of PPR Protein in the Control of Chloroplast Gene Expression', 'RNA Editing', 'Chloroplast RNA Processing and Stability', 'Intron Splicing']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not provide any section names containing Table 1, fails to address the query, and appears to be a system error message rather than a factual response. This bears no resemblance to the correct reference answer listing actual section titles."
+    },
+    {
+      "image": "image_40.png",
+      "question": "Which section does include the 'Stern DB et al,2004'?",
+      "true_answer": "['The Role of PPR Protein in the Control of Chloroplast Gene Expression']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and unrelated to the query asking which section includes 'Stern DB et al,2004'. It appears to be a system error message rather than an attempt to answer the question, and contains no factual information relevant to the query."
+    },
+    {
+      "image": "image_41.png",
+      "question": "When you check the Intron Splicing, which subsections are included?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the question about intron splicing subsections, providing no correct or factual information. It fails to address the query at all, making it completely incorrect and inaccurate based on the reference answer."
+    },
+    {
+      "image": "image_42.png",
+      "question": "Which section does describe the Table 3?",
+      "true_answer": "['3. Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not provide any factual information about which section describes Table 3, and instead returns a system error message that is unrelated to the query. This fails to address the question at all and contains no correct information."
+    },
+    {
+      "image": "image_43.png",
+      "question": "Which section does include the description of the Table 4?",
+      "true_answer": "['3. Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction, as it fails to answer the question about which section describes Table 4 and instead returns an error message unrelated to the query. It contains no factual information relevant to the task."
+    },
+    {
+      "image": "image_44.png",
+      "question": "When you search for the description of Figure 1, which sections do you need to check?",
+      "true_answer": "['3. Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no meaningful answer to the question about which sections to check for Figure 1's description. It is completely incorrect and not factual based on the reference answer, which correctly identifies the relevant section."
+    },
+    {
+      "image": "image_45.png",
+      "question": "When you search for the description of Figure 1, which sections do you need to check?",
+      "true_answer": "['3. Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no meaningful answer to the question about which sections to check for Figure 1's description. It is completely incorrect and not factual based on the reference answer, which correctly identifies the relevant section."
+    },
+    {
+      "image": "image_46.png",
+      "question": "Which section does include the 'Mewar D et al,2006'?",
+      "true_answer": "['1. Introduction', '4. Discussion']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response contains an error message that is unrelated to the query and provides no answer to the question about which sections include 'Mewar D et al, 2006'. It is completely incorrect and not factual based on the reference answer."
+    },
+    {
+      "image": "image_47.png",
+      "question": "What subsections are in the 2. Materials and Methods?",
+      "true_answer": "['No subsection!']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not address the question about subsections in the Materials and Methods section and instead returns a technical error message unrelated to the query. This fails to provide any factual information and is entirely unhelpful for the user's request."
+    },
+    {
+      "image": "image_48.png",
+      "question": "Name out the section that include the Figure 3.",
+      "true_answer": "['Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and inaccurate for the given instruction. It does not address the query about naming the section containing Figure 3 and instead returns an unrelated error message. This response fails to provide any factual information relevant to the task."
+    },
+    {
+      "image": "image_49.png",
+      "question": "Where can you find the Figure 1?",
+      "true_answer": "['Results']",
+      "generated_answer": "[ERROR] Object of type Document is not JSON serializable",
+      "eval_score_deepseek-chat": 0.0,
+      "eval_feedback_deepseek-chat": "Feedback: The response \"[ERROR] Object of type Document is not JSON serializable\" is completely incorrect and unrelated to the question \"Where can you find the Figure 1?\". It appears to be a system error message rather than an attempt to answer the query, and bears no factual relationship to the reference answer \"['Results']\" which correctly identifies where Figure 1 can be found. The response fails to provide any accurate or relevant information about the location of Figure 1."
+    }
+  ]
+}

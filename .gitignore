@@ -1,0 +1,12 @@
+.git/
+tmp/
+data/
+output/
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.pkl
+*.log
+__pycache__/
+.byaldi/
